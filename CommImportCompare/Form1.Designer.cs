@@ -152,6 +152,7 @@
             this.Controls.Add(this.btnLoadA);
             this.Name = "Form1";
             this.Text = "Compare Two Commission Files";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFileA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFileB)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
